@@ -7,20 +7,29 @@ body {
 
 .intro {
   display: flex;
-  height: 230px;
-  width: 500px;
+  height: 260px;
+  width: 600px;
   background-color: blueviolet;
   position: absolute;
-  top: 20%;
+  top: 22%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
 }
 
-.introh1 {
+.intro h1 {
   position: absolute;
   top: 20%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;
+}
+
+.intro p {
+  position: absolute;
+  top: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   margin: 0;
   color: white;
@@ -28,8 +37,8 @@ body {
 
 .introconteudo {
   position: absolute;
-  top: 50%;
-  left: 20%;
+  top: 20%;
+  left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
   color: white;
@@ -37,13 +46,12 @@ body {
 
 .content-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 200px; 
   width: 100%;
   position: absolute;
   transform: translateY(-50%);
   top: 400px;
+  left: 150px;
 }
 
 .container {
@@ -54,17 +62,16 @@ body {
   width: 400px;
   margin: 10px;
   border-radius: 10px;
+  position: relative;
 }
 
 .container:hover {
   background-color: yellow;
 }
-
 .container p {
   position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 10%;
   margin: 0;
-  color: white;
+  color: black;
 }
+
