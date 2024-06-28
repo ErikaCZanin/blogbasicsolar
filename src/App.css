@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+
 body {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #FFE2C3;
 }
 
 
@@ -9,12 +15,13 @@ body {
   display: flex;
   height: 260px;
   width: 600px;
-  background-color: blueviolet;
+  background-color: #FBF2ED;
   position: absolute;
   top: 22%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
 }
 
 .intro h1 {
@@ -23,7 +30,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  color: white;
+  color: #B7BCBF;
+  font-weight: 700;
+
 }
 
 .intro p {
@@ -32,16 +41,8 @@ body {
   left: 25%;
   transform: translate(-50%, -50%);
   margin: 0;
-  color: white;
-}
-
-.introconteudo {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  color: white;
+  color: black;
+  font-weight: 500;
 }
 
 .content-container {
@@ -55,8 +56,7 @@ body {
 }
 
 .container {
-  background-color: blueviolet;
-  border: 1px solid black;
+  background-color: #FBF2ED;
   text-align: center;
   height: 250px;
   width: 400px;
@@ -66,12 +66,19 @@ body {
 }
 
 .container:hover {
-  background-color: yellow;
+  background-color: #fae9dd;
 }
 .container p {
   position: absolute;
   left: 10%;
   margin: 0;
   color: black;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container h1 {
+  color: #B7BCBF;
+  font-weight: 600;
 }
 
