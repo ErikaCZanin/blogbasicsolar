@@ -2,10 +2,10 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
       <div className='intro'>
-        <h1> Sistema solar</h1>
-          <p>teste</p>
+        <h1>Sistema Solar</h1>
+        <p>teste</p>
       </div>
       <div className='content-container'>
         <div className='container'>
