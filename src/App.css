@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 
 body {
@@ -30,7 +31,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  color: #B7BCBF;
+  color: #77966D;
   font-weight: 700;
 
 }
@@ -65,9 +66,15 @@ body {
   position: relative;
 }
 
-.container:hover {
+.container:hover{
+  font-weight: 800;  
   background-color: #fae9dd;
 }
+.container:hover h1{
+  font-weight: 800;  
+  color: #626D58;
+}
+
 .container p {
   position: absolute;
   left: 10%;
@@ -78,7 +85,7 @@ body {
 }
 
 .container h1 {
-  color: #B7BCBF;
+  color: #77966D;
   font-weight: 600;
 }
 
